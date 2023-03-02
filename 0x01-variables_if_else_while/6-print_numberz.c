@@ -11,5 +11,5 @@ for (i = 0; i < 10; i++)
 {
 putchar(i);
 }
-putchat('\n');
+putchar('\n');
 }
