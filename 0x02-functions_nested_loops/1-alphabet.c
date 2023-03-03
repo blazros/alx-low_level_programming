@@ -1,16 +1,10 @@
 #include "main.h"
-#include "_putchar.c"
+#include <stdio.h>
 /**
  * main - check the code
  * print_alphabet - prints alphabets
  * Return: Always 0.
  */
-void print_alphabet(void);
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
 void print_alphabet(void)
 {
 int i;
