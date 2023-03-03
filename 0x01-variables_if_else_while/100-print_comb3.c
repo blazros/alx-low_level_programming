@@ -15,17 +15,12 @@ for (i = '0'; i < '9'; i++)
 		{
 			putchar(i);
 			putchar(j);
-			if (j < '9')
+			if (i < '8' && j <= '9')
 			{
 				putchar(',');
 				putchar(' ');
 			}
 		}
-	}
-	if (i < '8')
-	{
-	putchar(',');
-	putchar(' ');
 	}	
 }
 putchar('\n');
