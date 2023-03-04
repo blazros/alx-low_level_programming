@@ -2,8 +2,13 @@
 #include <stdio.h>
 int _islower(int c)
 {
-	if (_islower(c))
+	int t = c;
+	if (t >= 97 && t <= 122)
+	{
 		return (1);
+	}
 	else
+	{
 		return (0);
+	}
 }
