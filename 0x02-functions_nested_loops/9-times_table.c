@@ -16,22 +16,23 @@ void times_table(void)
 			{
 				y = c % 10 ;
 				x = (c - y) / 10;
-				_putchar('0' + x);
-				_putchar('0' + y);
-				if (b != 9){
+				if (b != 0)
+				{
 					_putchar(44);
 					_putchar(32);
 				}
+				_putchar(x + '0');
+				_putchar(y + '0');
 			}
-			else 
+			else
 			{
-				_putchar('0' + c);
-				if (b != 9)
+				if (b != 0)
 				{
 					_putchar(44);
 					_putchar(32);
 					_putchar(32);
 				}
+				_putchar(c + '0');
 			}
 		}
 		_putchar('\n');
