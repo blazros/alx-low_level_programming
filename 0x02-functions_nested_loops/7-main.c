@@ -1,14 +1,18 @@
 #include "main.h"
+
 /**
- * print_last_digit - Computes the absolute value of an integer.
- * @d: The number to be computed.
- * Return: Absolute value of number or zero
+ * main - check the code
+ *
+ * Return: Always 0.
  */
-int print_last_digit(int d)
+int main(void)
 {
-        while ((d % 10) != d)
-        {
-                d = d % 10;
-        }
-return (d);
+    int r;
+
+    print_last_digit(98);
+    print_last_digit(0);
+    r = print_last_digit(-1024);
+    _putchar('0' + r);
+    _putchar('\n');
+    return (0);
 }
