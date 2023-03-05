@@ -10,9 +10,10 @@ int print_last_digit(int d)
 	{
 		d = d * -1;
 	}
-	while (d % 10 != d && d > 10)
+	if (d % 10 != d && d > 10)
 	{
 		d = d % 10;
 	}
+putchar('0' + d);
 return (d);
 }
