@@ -30,5 +30,7 @@ printf(", ");
 printf("%d", j);
 }
 }
+else
+printf("98");
 printf("\n");
 }
