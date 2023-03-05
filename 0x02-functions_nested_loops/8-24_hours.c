@@ -7,10 +7,10 @@ void jack_bauer(void)
 	{
 		for (m = '0'; m < 60; m++)
 		{
-			putchar(h);
-			putchar(':');
-			putchar(m);
-			putchar('\n');
+			_putchar(h);
+			_putchar(':');
+			_putchar(m);
+			_putchar('\n');
 		}
 	}
 }
