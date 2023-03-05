@@ -6,9 +6,9 @@
  */
 int print_last_digit(int d)
 {
-        while ((d % 10) != d)
-        {
-                d = d % 10;
-        }
+	while ((d % 100) != d)
+	{
+		d = d % 100;
+	}
 return (d);
 }
