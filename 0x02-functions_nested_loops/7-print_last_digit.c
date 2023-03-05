@@ -6,9 +6,14 @@
  */
 int print_last_digit(int d)
 {
-	while ((d % 100) != d)
+	if (d < 0)
 	{
-		d = d % 100;
+		d = d * -1;
 	}
+	while ((d % 10) != d)
+	{
+		d = d % 10;
+	}
+_putchar(last + '0');
 return (d);
 }
