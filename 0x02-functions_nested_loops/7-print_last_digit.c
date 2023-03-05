@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_last_digit - Computes the absolute value of an integer.
  * @d: The number to be computed.
