@@ -8,7 +8,7 @@
 
 int main (void)
 {
-int i;
+long i;
 long n = 612852475143;
 double sq = sqrt(n);
 	while (n % 2 == 0)
