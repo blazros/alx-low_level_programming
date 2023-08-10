@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include "holberton.h"
+#include "main.h"
 
 /**
   * append_text_to_file - ...
